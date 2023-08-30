@@ -1,0 +1,29 @@
+div { 
+    display: none;
+    font-size: 14vh;
+    font-family: 'Arial black', Helvetica, sans-serif;
+    /*text-align: center;*/
+    color: red;
+}
+
+clVisible {
+    display: block;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+div#mycanvas {}
+
+.bg {
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

@@ -1,0 +1,34 @@
+div { 
+    display: none;
+}
+
+/*ovo bi trebalo isključiti autocomplete*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+
+input {
+    width: 15vw;
+    height: 5vh;
+    font-size: 5vh;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+div#mycanvas {
+    display: block;
+}
+
+.bg {
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

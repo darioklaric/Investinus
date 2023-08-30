@@ -1,0 +1,9 @@
+﻿html, body {
+    touch-action: none;
+}
+div { 
+    display: none;
+}
+iframe { 
+    display: none;
+}
