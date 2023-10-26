@@ -17,45 +17,51 @@
     </header>
     <noscript>Javascript je isključen. Kliknite na ikonu s crvenim x iza adrese ili u postavkama preglednika upišite javascript i uključite ga za stranice www.investinus.hr.</noscript>
       
+    <!-- način na koji se prikazuje izbor videa -->
+    <!-- TEKST prikazuje ispisan naziv izvođača i pjesme (dohvaća se iz imena filea) -->
+    <!-- - u nazivu prebacuje tekst u novi red-->
     <div id="NagradePrikazujKao">TEKST</div>
     <!-- 1 true, sve ostalo false-->
+    <!-- da li je isključena back tipka (<-) u browseru -->
     <div id="BackOff">1</div>
+    <!-- da li se gase ikone za igre koje su odigrane više od X puta -->
     <div id="TestLast10"></div>
-    <div id="BrojElemenata">30</div>
-    <div id="I1" tekst="IAOSeq novo" slika="6.png">./R%20ObjA/indexAOCi.html</div>
-    <div id="I2" tekst="AudCatSeq " slika="24.png">./TestRazumjevanja/CreateSentenceFromAWord.html</div>
-    <div id="I3" tekst="UACatSeq " slika="6.png">./R%20ObjA/indexConceptualWordsU.html</div>
-    <div id="I4" tekst="CogPhts " slika="56.png">./TestSlikeRazumjevanja/indexMob.html</div>
-    <div id="I5" tekst="AObjSeq " slika="6.png">./R%20ObjA/indexObjSeqU.html</div>
-    <div id="I6" tekst="hPriča Pr " slika="8.png">./8/sdIspricajPricu.html</div>
-    <div id="I7" tekst="MatG " slika="18.png">./7Upisivanje/matBrojeviG2.html</div>
-<!--    <div id="I7" tekst="WDS tje " slika="58.png">./7Upisivanje/seqTjelesniu.html</div>-->
-    <div id="I8" tekst="HjG h " slika="46.png">./7Upisivanje/hjCitanjeG1.html</div>
-    <div id="I9" tekst="Fsent " slika="14.png">./TestRazumjevanja/FinishSentence.html</div>
-    <div id="I10" tekst="TstSk a " slika="2.png">./8/testSk.html</div>
-    <div id="I11" tekst="Tablica " slika="19.png">./7Upisivanje\matZbrOduzCnvs1000.html</div>
-    <div id="I12" tekst="HRec hj " slika="29.png">./7Upisivanje/hjZapamtiRecenicu.html</div>
-    <div id="I13" tekst="CogPhts " slika="56.png">./TestSlikeRazumjevanja/indexMobPonavljanje.html</div>
-    <div id="I14" tekst="AObjSeqB " slika="10.png">./R%20ObjA/indexObjSeqU.html</div>
-    <div id="I15" tekst="SDPro a " slika="4.png">./8/sdPronadji.html</div>
-    <div id="I16" tekst="Pitanja test " slika="62.png">KM%20JSKMjesto/index.html</div><!--;./7Upisivanje/indexIv3UA.html-->
-    <div id="I17" tekst="ABrojeviSeq " slika="8.png">./R%204Slova/index.html</div>
-    <div id="I18" tekst="ZbrOduz " slika="41.png">./7Upisivanje/matZbrOduz15_2.html</div>
-    <div id="I19" tekst="Pri " slika="29.png">./7Testiranje/pri2211.html</div>
-<!--    <div id="I19" tekst="Boje " slika="59.png">https://www.coolmathgames.com/0-maze</div>-->
-    <div id="I20" tekst="ČitPon a " slika="1.png">./Citanje/index1.html</div>
-    <div id="I21" tekst="NACD a " slika="38.png">./TSIActiveBoost/NACDActiveBoost1.html</div>
+    <!-- broj elemenata u gridu-->
+    <div id="BrojElemenata">20</div>
+    <!-- definicija pojedine igre u gridu-->
+    <!-- id="IX" X je broj igre u gridu -->
+    <!-- tekst="" ispisuje tekst ispod slike -->
+    <!-- slika="" slika unutar kvadrata, slike se pohranjuju u /MMLib/IgreSlike -->
+    <!-- link definira naziv i mjesto gdje se nalazi html file sa definicijom igre -->
+    
+    <!-- u direktorij /MMLib/Slike idu slike sa emocijama za točno i netočno riješene zadatke -->
+    <!-- slike za točne odgovore su numerirane 1-50.png --> 
+    <!-- slike za netočne odgovore su numerirane na n1-n50.png -->
+    <div id="I1" tekst="KBPS" slika="1.png">./Primjeri/KhjBicaPojaveStvari.html</div>
+    <div id="I2" tekst="KBPSR" slika="2.png">./Primjeri/KhjBicaStvariR2.html</div>
+    <div id="I3" tekst="ITest" slika="3.png">./Primjeri/IPri2211.html</div>
+    <div id="I4" tekst="UBgovor" slika="4.png">./Primjeri/UmBrojeviDo100000G.html</div>
+    <div id="I5" tekst="UB100T" slika="5.png">./Primjeri/UmZapamtiBroj100000.html</div>
 
-    <div id="I22" tekst="Pjesme a " slika="38.png">./TestRazumjevanja/MMlibGlazba.html</div>
-    <div id="I23" tekst="Dr01.23 govor " slika="69.png">./7Upisivanje/dr2301.html</div>
-    <div id="I24" tekst="DrU govor " slika="70.png">./7Upisivanje/dr2301u.html</div>
-    <div id="I25" tekst="DrG govor " slika="71.png">./7Upisivanje/dr2301g.html</div>
-    <div id="I26" tekst="UNaIsp " slika="50.png">./7Upisivanje/hjUNaIspod.html</div>
-    <div id="I27" tekst="Borna govor " slika="11.png">./7Upisivanje/geografijaBorna.html</div>
-    <div id="I28" tekst="Tje " slika="58.png">./TestTematskeSlike/index_pon18.html</div>
-    <div id="I29" tekst="ASOSeq " slika="10.png">./R%20ObjA/indexObjSeqb.html</div>
-    <div id="I30" tekst="ČitPon a " slika="1.png">./Citanje/index1.html</div>
+    <div id="I6" tekst="KBPS" slika="1.png">./Primjeri/KhjBicaPojaveStvari.html</div>
+    <div id="I7" tekst="KBPSR" slika="2.png">./Primjeri/KhjBicaStvariR2.html</div>
+    <div id="I8" tekst="ITest" slika="3.png">./Primjeri/IPri2211.html</div>
+    <div id="I9" tekst="UBgovor" slika="4.png">./Primjeri/UmBrojeviDo100000G.html</div>
+    <div id="I10" tekst="UB100T" slika="5.png">./Primjeri/UmZapamtiBroj100000.html</div>
+    <div id="I11" tekst="KBPS" slika="1.png">./Primjeri/KhjBicaPojaveStvari.html</div>
+    <div id="I12" tekst="KBPSR" slika="2.png">./Primjeri/KhjBicaStvariR2.html</div>
+    <div id="I13" tekst="ITest" slika="3.png">./Primjeri/IPri2211.html</div>
+    <div id="I14" tekst="UBgovor" slika="4.png">./Primjeri/UmBrojeviDo100000G.html</div>
+    <div id="I15" tekst="UB100T" slika="5.png">./Primjeri/UmZapamtiBroj100000.html</div>
+    <div id="I16" tekst="KBPS" slika="1.png">./Primjeri/KhjBicaPojaveStvari.html</div>
+    <div id="I17" tekst="KBPSR" slika="2.png">./Primjeri/KhjBicaStvariR2.html</div>
+    <div id="I18" tekst="ITest" slika="3.png">./Primjeri/IPri2211.html</div>
+    <div id="I19" tekst="UBgovor" slika="4.png">./Primjeri/UmBrojeviDo100000G.html</div>
+    <div id="I20" tekst="UB100T" slika="5.png">./Primjeri/UmZapamtiBroj100000.html</div>
 
+    <!-- ovdje upisani videi nagrade se vide u svim igrama, treba ih biti barem 20 -->
+    <!-- direktorij u koji se nagrade stavljaju je /MMLib/Videos/ -->
+    <!-- nagrade mogu biti mp4 fileovi ili yt online videi -->
     <div id="GlNagrada">Novi Fosili-Žuljaju me cipele.mp4
 ;Novi Fosili-Šuti moj-dječače plavi.mp4
 ;Novi Fosili-Ja sam za ples.mp4
