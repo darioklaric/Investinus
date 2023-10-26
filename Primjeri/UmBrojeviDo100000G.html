@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../uapp.css">
+    <title>Rečenice</title>
+</head>
+<body style="border:0px;margin:0px;padding:0px">
+    <div style="display:block" id="canvas">
+        <div class="right" id="buttons" style="display:none;">
+            <button style="position:fixed;height:10vh;width:10vh;top:5vh;left:5vw" id="start_button" onclick="startButton(event)">
+              <img id="start_img" src="mic.gif" alt="Start"></button>
+            <div id="testtextdiv" style="display:none">
+                <input id="testtext" style="position:fixed;left:15vw;top:5vh;height:9vh;width:65vw;color:red;font-size:6vh;font-family: 'Spojenrukopis'" autofocus type="text" name="test"></input>
+            </div>
+        </div>
+        <p class="first" style="display:block;margin-top:5vh;color:red;font-size:5vh;font-family: 'Arial black'"></p>
+        <p class="second" style="display:block;color:red;font-size:5vh;font-family: 'Arial black'"></p>
+        <p class="third" style="display:none;color:gray;font-size:3vh;font-family: 'Arial black'"></p>
+        <p class="fourth" style="display:none;color:gray;font-size:3vh;font-family: 'Arial black'"></p>
+        <p class="fifth" style="display:none;color:gray;font-size:3vh;font-family: 'Arial black'"></p>
+        <p style="display:block">
+            <span style="margin-top: 0; font-size: 2vh;color:red" id="interim_span" class="interim"></span>
+        </p>
+        <p style="display:none">
+            <span style="font-size: 4vh;color:red" id="final_span" class="final"></span>
+        </p>
+    </div>
+    <div id="Titles">11 523^^11000 523$ $ $ 
+        ;29 742^^29000 742$ $ $ 
+        ;31 535^^31000 535$ $ $ 
+        ;46 843^^46000 843$ $ $ 
+        ;50 650^^50000 650$ $ $ 
+        ;62 074^^62000 074$ $ $ 
+        ;75 294^^75000 294$ $ $ 
+        ;86 841^^86000 841$ $ $ 
+        ;97 722^^97000 722$ $ $ 
+        ;100 000^^100000$ $ $ 
+        ;1 385^^1385$ $ $ 
+        ;2 884^^2884$ $ $ 
+        ;3 933^^3933$ $ $ 
+        ;4 254^^4254$ $ $ 
+        ;5 867^^5867$ $ $ 
+        ;6.396^^6396$ $ $ 
+        ;7 849^^7849$ $ $ 
+        ;8 791^^8791$ $ $ 
+        ;9 132^^9132$ $ $</div>
+    <div id="Rewards">Franka-Ljubav.mp4;;Petar Grašo-Ako te pitaju.mp4</div>
+    <div id="ChangeTheGame">0</div>
+    <div id="Retries">100</div>
+    <div id="RetriesBeforeReward">3</div>
+    <div id="VideoPlaytime">15</div>
+    <div id="Audio"></div>
+    
+    <div id="ClockAlert">200000</div>
+    <div id="GameAVMode">VISUAL</div>
+</body>
+<script src="../uapp.js"></script>
+<script src="../mm.js"></script>
+</html>

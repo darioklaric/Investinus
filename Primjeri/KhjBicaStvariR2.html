@@ -1,0 +1,43 @@
+﻿<html lang="en">
+<head>
+    <link rel="stylesheet" href="../app.css">
+    <script src="../app.js"></script>
+    <script src="../mm.js"></script>
+    <title>Bića, pojave, stvari</title>
+</head>
+<body style="border:0px;margin:0px;padding:0px">
+    <div style="display:block" id="mycanvas">
+        <canvas id="canvas">Browser does not support canvas!.</canvas>
+    </div>
+    <div id="Titles">
+tata;mama;puž;zmija;maslačak;ruža;Ivana;učiteljica;
+vatra;kiša;sunce;oblak;magla;snijeg;mjesec;zvijezda;
+bicikl;papuča;skejt;ograda;pahuljice;slanina;žlica;stol</div>  
+    <div id="Dirs"></div>
+    <div id="AudioTitles">;</div>
+    <div id="ShowIntroduction"></div>
+    <div id="IntroTitles"></div>
+    <div id="AudioIntros"></div>
+    <div id="TotalImages">24</div><!-- TotalImages / Groups has to be a round number -->
+    <div id="Groups">3</div><!-- How many difernet logical groups images represent -->
+    <div id="GroupImages">./HJ 2306 bica-pojave-stvari/g1.jpg;./HJ 2306 bica-pojave-stvari/g2.jpg;./HJ 2306 bica-pojave-stvari/g3.jpg</div><!-- This images will be shown on group cards (up) -->
+    <div id="GroupsUp">3</div><!-- How many cards (groups) up -->
+    <div id="CardsDown">6</div><!-- Has to be greater or equal than Groups * CorrectAnswersDown-->
+    <div id="CorrectAnswersDown">2</div><!-- How many correct answers will be displayed down. Must be less or equal than CardsDown. -->
+    <div id="CorrectGroups">1;2;3</div><!-- Which groups are correct. Array separated with ','. If there are 2 GroupsUp there should be 2 correct groups (out of 3 groups in total, at least)-->
+    <div id="ShowDescriptions"></div>
+    <div id="Rewards">Doris Dragović-Snać ću se ja.mp4;Doris Dragović-Željo moja.mp4</div>
+    <div id="ChangeTheGame">1</div>
+    <div id="Retries">20</div>
+    <div id="RetriesBeforeReward">2</div>
+    <div id="VideoPlaytime">10</div>
+    <div id="WriteTextShowImage">TEXT</div>
+    <div id="ClockAlert">180000</div>
+
+<!--    <div id="ConceptualGame"></div>
+    <div id="ConceptualAudioGame"></div>
+    <div id="ConceptualMode">NORMAL</div>
+    <div id="ConceptTimeout">2</div>
+-->
+</body>
+</html>
